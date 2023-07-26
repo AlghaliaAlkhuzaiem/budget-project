@@ -10,7 +10,12 @@
     
 }
 
-
+.par{
+    width: 30px;
+    margin-left: 70%;
+    color: #fff;
+    font-family: fantasy;
+}
 
    
 
@@ -67,3 +72,7 @@ img{
     height: 350px;
     justify-content: center;
  }   
+
+ body{
+    background-color: #18485e;
+ }

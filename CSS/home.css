@@ -221,3 +221,47 @@ div.container-footer.w-container {
     
 }
 
+
+/*about us cards design*/
+.cards{
+  display: flex;
+  
+}
+
+.card1{
+  border: 2px solid black;
+  width: 500px;
+  height: 570px;
+  margin-top: 20%;
+  margin-left: 10%;
+  background-image: url('../IMG/aboutus.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card2{
+  border: 2px solid black;
+  width: 650px;
+  height: 350px;
+  margin-top: 27%;
+  padding: 2%;
+  text-align: center;
+  background-color: #2c3d58;
+}
+#p{
+  margin-top: 13%;
+}
+ .cards h2{
+  color: #b4bdc6;
+ }
+.cards p{
+  margin-top:3% ;
+  color: #b7c0c7;
+  font-size:large;
+}
+
+.card1 :hover{
+  cursor: pointer;
+  background-color: #b4bdc6;
+  color: #2c3d58;
+}
