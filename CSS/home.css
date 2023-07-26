@@ -229,7 +229,7 @@ div.container-footer.w-container {
 }
 
 .card1{
-  border: 2px solid black;
+  border: 2px solid rgb(146, 152, 161);
   width: 500px;
   height: 570px;
   margin-top: 20%;
@@ -237,16 +237,18 @@ div.container-footer.w-container {
   background-image: url('../IMG/aboutus.png');
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 2px;
 }
 
 .card2{
-  border: 2px solid black;
+  border: 2px solid rgb(146, 152, 161);
   width: 650px;
   height: 350px;
   margin-top: 27%;
   padding: 2%;
   text-align: center;
   background-color: #2c3d58;
+  border-radius: 8px;
 }
 #p{
   margin-top: 13%;
@@ -260,8 +262,128 @@ div.container-footer.w-container {
   font-size:large;
 }
 
-.card1 :hover{
+.card2 :hover{
   cursor: pointer;
-  background-color: #b4bdc6;
+  background-color: #b7c0c7;
   color: #2c3d58;
+}
+
+/*goals cards
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  border: 2px solid rgb(146, 152, 161);
+  width: 250px;
+  height: 250px;
+  margin-top: 8%;
+  padding: 2%;
+  text-align: center;
+}
+ h1{
+  margin-top: 18%;
+  margin-left: 43%;
+  font-size: xx-large;
+ 
+}
+*/
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-top:20%;
+}
+.myCard {
+  background-color: transparent;
+  width: 350px;
+  height: 400px;
+  perspective: 1000px;
+  
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  font-size: larger;
+}
+
+.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.myCard:hover .innerCard {
+  transform: rotateY(180deg);
+}
+.myCard img{
+width: 150px;
+height: 80px;
+border-radius: 12px;
+}
+.frontSide,
+.backSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+
+.frontSide,
+.frontSide::before {
+  background: linear-gradient(43deg, rgb(245, 246, 248) 0%, rgb(184, 191, 205) 46%, rgb(4, 56, 115) 100%);
+}
+
+.backSide,
+.backSide::before {
+  background-image: linear-gradient(160deg, #0e1972 0%, #5c6d98 100%);
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+
+.frontSide::before,
+.backSide::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 1em;
+  filter: blur(20px);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
 }
