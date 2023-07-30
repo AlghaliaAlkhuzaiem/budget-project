@@ -1,27 +1,91 @@
-/*cards design*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
-.container{
+header{
+    border: 2px solid black;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    justify-content: space-around;
-    margin-left: 10%;
+    align-items: center;
+    text-align: center;
+    gap: 30%;
+    background-color: #2D4356;
+   
+}
+
+
+header img{
+    width: 100px;
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20%;
+}
+
+.navbar{
+    text-decoration: none;
+    color: rgb(174, 174, 181);
+    font-weight: 700;
+
+}
+
+nav :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    color:#2c455b;
+}
+header h3{
+    border: 2px solid rgb(34, 115, 208);
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1px;
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*cards design*/
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+   
+}
+
 .par{
-    width: 30px;
-    margin-left: 70%;
+    text-align: center;
     color: #fff;
-    font-family: fantasy;
+    margin-top: 20%;
+    
+    
 }
 
    
 
 
 .card1{
-    border: 2px solid black;
+    border: 2px solid rgb(148, 143, 143);
     margin-top: 13%;
     background-color: #fff;
     height: 350px;
@@ -31,7 +95,7 @@
 
 
 .card2{
-    border: 2px solid black;
+    border: 2px solid rgb(148, 143, 143);
     margin-top: 13%;
     background-color: #fff;background-color: #fff;
     height: 350px;
@@ -39,14 +103,14 @@
 
 
 .card3{
-    border: 2px solid black;
+    border: 2px solid rgb(148, 143, 143);
     margin-top: 13%;
     height: 350px;
     background-color: #fff;
   
 }
 .card4{
-    border: 2px solid black;
+    border: 2px solid rgb(148, 143, 143);
     margin-top: 13%;
     height: 350px;
     background-color: #fff;
@@ -54,17 +118,18 @@
 }
 
 .card5{
-    border: 2px solid black;
+    border: 2px solid rgb(148, 143, 143);
     margin-top: 13%;
     height: 350px;
     background-color: #fff;
 
 }
 .card6{
-    border: 2px solid black;
+    border: 2px solid  rgb(148, 143, 143);
     margin-top: 13%;
     height: 350px;
     background-color: #fff;
+   
 
 }
 img{
@@ -74,5 +139,5 @@ img{
  }   
 
  body{
-    background-color: #18485e;
+   background-color: #375168;
  }
