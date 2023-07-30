@@ -235,12 +235,12 @@ div.container-footer.w-container {
   height: 570px;
   margin-top: 20%;
   margin-left: 10%;
-  background-image: url('../IMG/aboutus.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 2px;
 }
-
+.card1 img{
+  width: fit-content;
+  height: 570px;
+}
 .card2{
   border: 2px solid rgb(146, 152, 161);
   width: 650px;
