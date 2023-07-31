@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Golos+Text&display=swap');
+
+ *{
+          margin: 0%;
+          padding:0%;
+          font-family: 'Golos Text', cursive;;
+}
+body{
+          background-color: #556e93;
+}
+header{
+          border: 3px solid #061A40;
+          height:60vh;
+          background-color: #061A40;
+          
+}
+header .Heading{
+          font-size: 75px;
+          color: rgb(212, 207, 201);
+          margin-top: 40px;
+          margin-left: 400px;
+          width: 800px;
+}
+header .text1{
+          font-size: x-large;
+          color: white;
+          margin-top: 60px;
+          margin-left: 100px;
+          width: 300px;
+}
+header .text2{
+          font-size: large;
+          color: white;
+          margin-top: 15px;
+          margin-left: 800px;
+          width: 300px;
+}
+
+
+/* sections */
+
+
+.Online {
+          height: 70vh;
+          width: 50%;
+          margin-top: 190px;
+          display: flex;
+          flex-direction: row;
+          padding: 20px;
+          border-radius: 0px 15px 15px 0px;
+          background-color: #061A40;
+
+        }
+    .Online h3{
+          font-weight: 300;
+          color: #FFFFFF;
+          font-weight: 700;
+    }   
+    .Online h1{
+          font-weight: 700;
+          color: #ede4e4;
+    }   
+        .online-img {
+          height: 200px;
+          width: 200px;
+          margin-bottom: 0; 
+          margin-top: 50px;
+          border-radius: 20px;
+          margin-left:75px
+        }
+        #online-img{
+          border-radius: 20px;
+          height: 200px;
+          width: 200px;
+        }
+        
+        .online-disc {
+          width: 60%;
+          line-height: 2;
+          height: 250px;
+        }
+        .img-container{
+          margin-left: 20rem;          
+  }    
+.Online button{
+          font-family: 'Golos Text', sans-serif;
+          padding: 5px;
+          border-radius: 5px;
+          background-color: #556e93;
+          color: white;
+          border: solid white 2px;
+          color: white;
+          position: absolute;
+          margin-top: -33px;
+}
+
+
+.Office {
+          display: flex;
+          height: 70vh;
+          width: 50%;  
+          margin-top: 50px;
+           margin-left: 590px;   
+          display: flex;
+          flex-direction: row;
+          padding: 20px;
+          border-radius: 15px 0px 0px 15px;
+         margin-bottom: 50px;
+          background-color: #061A40;
+        }
+        
+        .office-disc {
+          width: 60%;
+          line-height: 2;
+          height: 250px;
+        }
+        .Office h3{
+          font-weight: 300;
+          color: #ffff;
+    } 
+    .Office h1{
+          color: #ede4e4;
+          letter-spacing: 2px;
+    }
+        
+        .office-img {
+          height: 200px;
+          width: 200px;
+          margin-bottom: 0; 
+          margin-top: 20px;
+          margin-left: 390px;
+         
+        }
+        #office-img{
+          border-radius: 20px;
+          height: 200px;
+          width: 200px;
+
+        }
+        
+        
+        .Office button{
+          font-family: 'Golos Text', sans-serif;
+          padding: 5px;
+          border-radius: 5px;
+          background-color: #556e93;
+          color: white;
+          border: solid white 2px;
+          color: white;
+          position: absolute;
+          margin-top: -33px;
+}
+
+
+.previous-button {
+          padding: 10px 15px;
+          border: none;
+          border-radius: 5px;
+          background-color: #061A40;
+          color: #fff;
+          font-size: 30px;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          margin: 15px;
+          height: 30px;
+        }
+        
+        .previous-button span {
+          margin-right: 5px;
+        }
+        
+ /* .Office {
+          display: flex;
+          height: 70vh;
+          width: 50%;
+          margin-top: 50px;
+          margin-left: 590px;
+          padding: 20px;
+          border-radius: 15px 0px 0px 15px;
+          background-color: #061A40;
+          gap: 20px;
+          justify-content: space-between;
+        }
+        
+        .office-disc {
+          width: 60%;
+          line-height: 2;
+          height: 250px;
+          color: #ffffff;
+        }
+        
+        .office-img {
+          width: 30%;
+          text-align: right;
+          margin-top: 230px;
+          margin-left: 30px;
+        }
+        
+        .office-img img {
+          height: 150px;
+          border-radius: 20px;
+        }
+        
+        .Office h3 {
+          font-weight: 300;
+        }
+        
+        .Office h1 {
+          letter-spacing: 2px;
+        }
+        
+        .office-button {
+          font-family: 'Golos Text', sans-serif;
+          padding: 5px;
+          border-radius: 5px;
+          background-color: #556e93;
+          border: solid white 2px;
+          color: white;
+          margin-top:150px;
+          margin-left: 270px;
+        }  */
+
+        
+
+
+
+
+
