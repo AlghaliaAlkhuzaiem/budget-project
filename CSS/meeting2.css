@@ -68,6 +68,13 @@ body {
           padding: 10px;
           border: 1px solid white;
         }
+
+        
+        .day1 {
+          text-align: center;
+          padding: 10px;
+          border: 1px solid white;
+        }
         
         .time-slots {
           display: flex;
@@ -103,7 +110,29 @@ body {
                     margin-top: px;
                   
         }
-        button:hover {
+        .done:hover {
           background-color: navy;
           color: #fff;
+        }
+
+
+        a{
+          text-decoration: none;
+          color: rgb(14, 32, 85);
+          text-align: center;
+          background-color: #fff;
+        }
+
+        .d{
+          margin-left: 40%;
+          width: 60px;
+          border: 2px solid blue;
+          background-color: #fff;
+          border-radius: 5px;
+        }
+
+        .day1{
+          background-color: rgba(128, 177, 233, 0.796);
+          border-radius: 40px ;
+        
         }

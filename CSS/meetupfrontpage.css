@@ -41,7 +41,7 @@ header .text2{
 
 
 .Online {
-          height: 70vh;
+          height: 50vh;
           width: 50%;
           margin-top: 190px;
           display: flex;
@@ -97,10 +97,10 @@ header .text2{
 
 .Office {
           display: flex;
-          height: 70vh;
+          height: 50vh;
           width: 50%;  
           margin-top: 50px;
-           margin-left: 590px;   
+           margin-left: 710px;   
           display: flex;
           flex-direction: row;
           padding: 20px;
