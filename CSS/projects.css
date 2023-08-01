@@ -4,12 +4,12 @@
 }
 
 header{
-    border: 2px solid black;
+   
     display: flex;
     align-items: center;
     text-align: center;
     gap: 30%;
-    background-color: #2D4356;
+    background-color: #d5dcdf;
    
 }
 
@@ -23,11 +23,12 @@ nav{
     display: flex;
     flex-direction: row-reverse;
     gap: 20%;
+    font-family: 'Golos Text', sans-serif;
 }
 
 .navbar{
     text-decoration: none;
-    color: rgb(174, 174, 181);
+    color: rgb(40, 73, 106);
     font-weight: 700;
 
 }
@@ -35,7 +36,7 @@ nav{
 nav :hover{
     text-decoration: underline;
     cursor: pointer;
-    color: white;
+    color: rgb(88, 96, 102);
 }
 
 header a{
@@ -43,13 +44,15 @@ header a{
     color:#2c455b;
 }
 header h3{
-    border: 2px solid rgb(34, 115, 208);
+    border: 2px solid rgb(23, 84, 154);
     border-radius: 5px;
-    width: 80px;
-    height: 35px;
+    width: 110PX;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(245, 247, 249);
     padding: 1px;
+    font-family: 'Golos Text', sans-serif;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     
 }
 
@@ -66,8 +69,9 @@ header h3{
 
 /*cards design*/
 .cards{
-
-     gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 5%;
     width: 100%;
     border: 3px solid rgb(142, 30, 30);
@@ -86,13 +90,34 @@ header h3{
 
 .par{
     text-align: center;
-    color: #fff;
-    margin-top: 20%;
+    color: #d9d9d9;
+    margin-top: 21%;
+    justify-content: center;
     
     
 }
+.container2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 
-   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+
+.container3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 20%;
+
+}
 
 
 .card1{
@@ -100,6 +125,9 @@ header h3{
     margin-top: 13%;
     background-color: #fff;
     height: 350px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
    
 }
 
@@ -110,6 +138,8 @@ header h3{
     margin-top: 13%;
     background-color: #fff;background-color: #fff;
     height: 350px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
@@ -118,6 +148,8 @@ header h3{
     margin-top: 13%;
     height: 350px;
     background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   
 }
 .card4{
@@ -125,6 +157,8 @@ header h3{
     margin-top: 13%;
     height: 350px;
     background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 
@@ -133,13 +167,17 @@ header h3{
     margin-top: 13%;
     height: 350px;
     background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 .card6{
     border: 2px solid  rgb(148, 143, 143);
     margin-top: 13%;
     height: 350px;
+    border-radius: 20px;
     background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
    
 
 }
@@ -147,8 +185,52 @@ img{
     width: 300px;
     height: 350px;
     justify-content: center;
+    border-radius: 20px;
  }   
 
  body{
    background-color: #375168;
+ }
+
+ .j p{
+    text-align: center;
+    color: #d9d9d9;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+    
+ }
+ .j  {
+   width: 100%;
+    background-color: #14394b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+ }
+
+ .b h3{
+    border: 2px solid rgb(249, 250, 250);
+    width: 160px;
+    text-align: center;
+    padding: 2%;
+    background-color: #c1c3c3;
+    color: #253f56;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+ }
+
+ .b{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;
+    font-family: 'Golos Text', sans-serif;
+    width: 500px;
+    
  }
