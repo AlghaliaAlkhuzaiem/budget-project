@@ -12,8 +12,8 @@ body {
           padding: 20px;
           color: navy;
         }
-/* Previous CSS styles remain unchanged */
 
+/* attendees cards and button */
 .attendees {
           display: flex;
           flex-wrap: wrap;
@@ -55,7 +55,7 @@ body {
         p {
           text-align: center;
         }
-        
+        /*calender  */
         .calendar {
           display: grid;
           grid-template-columns: repeat(7, 1fr);
@@ -75,7 +75,7 @@ body {
           padding: 10px;
           border: 1px solid white;
         }
-        
+        /* time slots */
         .time-slots {
           display: flex;
           flex-wrap: wrap;
@@ -92,6 +92,7 @@ body {
         .time-slot:hover {
           background-color: rgba(56, 77, 236, 0.2);
         }
+        /*  reserve button */
         .reserve-button {
           text-align: center;
           margin-top: 20px;
@@ -122,13 +123,15 @@ body {
           text-align: center;
           background-color: #fff;
         }
-
+/* home button */
         .d{
           margin-left: 40%;
           width: 60px;
-          border: 2px solid blue;
+          border: 2px solid navy;
           background-color: #fff;
           border-radius: 5px;
+          height: 30px;
+          margin-top: 40px;
         }
 
         .day1{
